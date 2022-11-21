@@ -19,6 +19,6 @@
 #### POSTAL_CODE - a mailing code 
 #### ANNUAL_MILEAGE - number of miles  driven in a year
 #### VEHICLE_TYPE -  sedan or sports car
-#### SPEEDING_VIOLATIONS - number times drove above speed limit
+#### SPEEDING_VIOLATIONS - number of times drove above speed limit
 #### DUIS - number of times drove  the vehicle while affected by alcohol or drugs
 #### PAST_ACCIDENTS - count of past accidents
