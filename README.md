@@ -1,5 +1,5 @@
 # SQL-CAR-INSURANCE-PROJECT
-
+In this project I am analysing an insurance company's annual data about customers in sql.
 
 ## Insurance Claims over Cars
 
@@ -28,4 +28,16 @@
 #### DUIS - number of times drove  the vehicle while affected by alcohol or drugs
 #### PAST_ACCIDENTS - count of past accidents
 #### OUTCOME - 1 and 0
+
+
+###   CREATING THE TABLE IN SQL
+
+To create the table in sql I used sql workbench and imported the csv file of the data by specifying the columns and column types rather than inserting the data
+manually.
+
+
+### ANALYSIS
+
+We started by looking at each columns of the data. I have used the general functions, aggregate functions, aggregate functions with window functions , wildcards , CTE and case statements for writing the queries.
+
 
