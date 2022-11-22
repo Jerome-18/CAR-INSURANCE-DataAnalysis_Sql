@@ -1,5 +1,10 @@
 # SQL-CAR-INSURANCE-PROJECT
+
+
 ## Insurance Claims over Cars
+
+
+## About Data
 
 ### The company has shared its annual car insurance data.The columns are resembling practical world features.The outcome column indicates 1 if a customer has claimed his/her loan else 0.The data has 19 features from there 18 of them are corresponding logs which were taken by the company.
 
@@ -22,3 +27,5 @@
 #### SPEEDING_VIOLATIONS - number of times drove above speed limit
 #### DUIS - number of times drove  the vehicle while affected by alcohol or drugs
 #### PAST_ACCIDENTS - count of past accidents
+#### OUTCOME - 1 and 0
+
