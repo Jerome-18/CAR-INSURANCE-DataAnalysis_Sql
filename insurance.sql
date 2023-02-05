@@ -71,19 +71,10 @@ order by CREDIT_SCORE DESC;
 -- COUNTING ON THE BASIS OF GENDER WHERE CREDIT SCORE>0.8 & OUTCOME=1 --
 
 
-with CTE_insurance as
-(
-select gender,
-case
-when credit_score > 0.8 and outcome = 1 then 'yes'
-else 'no'
-end as claim_status
+select gender, count(*) as c
 from insurance
-)
-SELECT GENDER,COUNT(*) as count FROM CTE_INSURANCE
-where claim_status='yes'
-GROUP BY GENDER;
-
+where credit_score > 0.8 and outcome = 1
+group by gender;
 
 
 --- trying to find the relationship between past accidents and outcome ---
